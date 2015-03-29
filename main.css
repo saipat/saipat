@@ -1,0 +1,80 @@
+head,body,h1,h2,h3,h4,p,ul,li,a,nav,textarea
+{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	
+}
+body{
+	background-color: white;	
+}
+.navbar-inverse{
+	background-color: #41b7d8;
+}
+.navbar-inverse .navbar-brand{
+	color: black;
+	font-size: 30px;
+}
+.navbar-inverse .navbar-nav li a{
+	color: black;
+	font-size: 15px;
+}
+#outer-box{
+	border: 1px solid black;
+	height: 700px;
+}
+.inner-box{
+	border: 1px solid black;
+	width: 50%;
+	font-family: 'Raleway', Tahoma, sans-serif;
+	text-align: center;
+	margin: 2em auto 0;
+	max-width: 36em;
+	padding: 20px;
+	
+}
+#bio h2{
+	font-size: 25px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+#bio p{
+	font-size: 16px;
+}
+#skills{
+	margin-left: 40px;
+	margin-top: 60px;
+
+}
+#skills h2{
+	font-size: 25px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+#skills ul{
+	padding: 15px;
+	list-style-type: disc;
+	list-style-position: outside;
+
+}
+#skills ul li{
+	font-size: 15px;
+	padding: 3px;
+}
+#sub-skill h3{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
