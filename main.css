@@ -8,64 +8,98 @@ head,body,h1,h2,h3,h4,p,ul,li,a,nav,textarea
 	
 }
 body{
-	background-color: white;	
+	background-color: #f8f8f8;	
 }
 .navbar-inverse{
-	background-color: #41b7d8;
+	background-color: #3ea99f;
+	box-shadow: 4px 4px 5px #ccc;
 }
 .navbar-inverse .navbar-brand{
 	color: black;
 	font-size: 30px;
+	text-shadow: 2px 2px 2px #ccc ;
+	font-family: 'Lora', serif;
 }
 .navbar-inverse .navbar-nav li a{
 	color: black;
 	font-size: 15px;
+	font-family: 'Lora', serif;
 }
 #outer-box{
-	border: 1px solid black;
-	height: 700px;
+	border: 1px inset #bdbdbd;
+	height: 1100px;
+	box-shadow: 4px 4px 5px #ccc;
 }
 .inner-box{
-	border: 1px solid black;
-	width: 50%;
-	font-family: 'Raleway', Tahoma, sans-serif;
+	border: 1px solid #bdbdbd;
+	font-family: 'Lora', serif;
 	text-align: center;
 	margin: 2em auto 0;
-	max-width: 36em;
+	max-width: 40em;
 	padding: 20px;
-	
+	max-height: 60em;
+}
+#bio{
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 #bio h2{
-	font-size: 25px;
+	font-size: 28px;
+	text-shadow: 2px 2px 2px #ccc ;
 	margin-bottom: 15px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #bdbdbd;
 }
 #bio p{
 	font-size: 16px;
 }
-#skills{
-	margin-left: 40px;
-	margin-top: 60px;
+#skills, #education{
+	margin-top: 60px auto 0 auto;
 
-}
-#skills h2{
-	font-size: 25px;
+} 
+#skills h2, #education h2{
+	font-size: 28px;
+	text-shadow: 2px 2px 2px #ccc ;
 	margin-bottom: 15px;
-	border-bottom: 1px solid black;
+	padding-top: 20px;
+	border-bottom: 1px solid #bdbdbd;
 }
-#skills ul{
+#skills ul, #education ul{
 	padding: 15px;
-	list-style-type: disc;
-	list-style-position: outside;
-
+	list-style-type: none;
 }
-#skills ul li{
+#skills ul li, #education ul li{
 	font-size: 15px;
 	padding: 3px;
 }
-#sub-skill h3{
-	font-size: 20px;
-	margin-bottom: 15px;
+#sub-skill1 h3, #sub-skill2 h3, #editor h3{
+	font-size: 19px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #bdbdbd;
+}
+
+@media screen and (max-width: 600px){
+	.navbar-inverse .navbar-brand{
+		font-size: 27px;
+		text-align: center;
+		}
+	#bio{
+			font-size: 25px;
+			margin-bottom: 15px;
+			border: none;
+		}
+	#bio p{
+			padding: 30px;
+		}	
+	#skills{
+			width: auto;
+			margin: auto;
+			border : none;
+		}	
+	#education{
+		margin: auto;
+		border: none;
+		}	
 }
 
 

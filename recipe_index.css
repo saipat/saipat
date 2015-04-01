@@ -1,4 +1,4 @@
-head,body,h2,h3,p
+head,body,h2,h3,p,ul,li,a,textarea,
 {
 	padding: 0;
 	border: 0;
@@ -7,38 +7,33 @@ head,body,h2,h3,p
 	font-size: 100%;
 }
 body{
-	background-color: #ebebeb;
+	background-color: white;
 }
-h1{
-	font-family: 'Lucida Bright', Georgia, serif;
+h1, h2, h3{
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	color: #151b54;
+	text-decoration: underline;
+	
+}
+h1{;
 	font-size: 38px;
-	font-weight: bold;
-	padding: 19px;
 	margin: 10px;
-	color: #663300;
-	text-align: center;
+	padding: 19px;
 	width: auto;
 	height: .3em;
-	text-decoration: underline;
-
+	text-align: center;
 }
 h2{
-	font-family: 'Lucida Bright', Georgia, serif;
 	font-size: 35px;
-	font-weight: bold;
-	padding: 20px;
 	margin-top: 25px;
-	color: #663d14;
-	text-decoration: underline;
+	padding: 19px;
 	text-align: center;
 }
 h3{
-	font-family: 'Lucida Bright', Georgia, serif;
 	font-size: 24px;
-	font-weight: normal;
-	padding: 10px;
-	margin-bottom: 10px;
-	color: #663d14;
+	padding: 20px;
+	margin: 40px 0 0 20px;
 	text-decoration: underline;
 	
 }
@@ -49,9 +44,15 @@ ul li{
 	padding-bottom: 7px;
 }
 ul li a{
-	text-decoration: none; 
+	text-align: justify;
 	color: #006b24;
+
 }
+.carousel-inner .item img,
+  .carousel-inner .item a img {
+      width:100%;
+      margin: auto;
+  }
 h4{
 	font-family: 'Lucida Bright', Georgia, serif;
 	font-size: 18px;
@@ -79,7 +80,11 @@ textarea{
 	background-color: #000099;
 }
 
-
+@media screen and (max width:600px){
+	#appetizers h3{
+		text-align: center;
+	}
+}
 
 
 
