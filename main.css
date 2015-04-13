@@ -8,7 +8,8 @@ head,body,h1,h2,h3,h4,p,ul,li,a,nav,textarea
 	
 }
 body{
-	background-color: #f8f8f8;	
+	background-color: #f8f8f8;
+	background-image: url("p1.paint");	
 }
 .navbar-inverse{
 	background-color: #3ea99f;
@@ -19,6 +20,7 @@ body{
 	font-size: 30px;
 	text-shadow: 2px 2px 2px #ccc ;
 	font-family: 'Lora', serif;
+	line-height: 33px;
 }
 .navbar-inverse .navbar-nav li a{
 	color: black;
@@ -27,7 +29,7 @@ body{
 }
 #outer-box{
 	border: 1px inset #bdbdbd;
-	height: 1100px;
+	height: 1000px;
 	box-shadow: 4px 4px 5px #ccc;
 }
 .inner-box{
@@ -78,18 +80,26 @@ body{
 	border-bottom: 1px solid #bdbdbd;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 360px){
 	.navbar-inverse .navbar-brand{
-		font-size: 27px;
+		font-size: 26px;
 		text-align: center;
+		line-height: 36px;
+		}	
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  		color: black;
 		}
+	#outer-box{
+		height: 1300px;
+	}	
 	#bio{
 			font-size: 25px;
 			margin-bottom: 15px;
 			border: none;
 		}
 	#bio p{
-			padding: 30px;
+			padding: 33px;
+			font-size: 18px;
 		}	
 	#skills{
 			width: auto;
@@ -99,7 +109,11 @@ body{
 	#education{
 		margin: auto;
 		border: none;
-		}	
+		}
+	#skills ul li, #education ul li{
+	font-size: 18px;
+	padding: 3px;
+}	
 }
 
 

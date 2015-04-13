@@ -1,105 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Paapu's Kitchen</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="recipe_index.css">
-	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>healthy-eatery.com</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="recipe_index.css">
+		<link rel="stylesheet" type="text/css" href="jcarousel.css">
+		<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+		
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+   		<script type="text/javascript" src="jcarousel.js"></script>
 </head>
 <body>
-<div class="container">
-	<header>
-		<h1>Paapu's Kicthen</h1>
-		<h2>Recipe Index</h2>
-	</header>
 	
-	<div class="row">
-	<section id="appetizers">
-		<div class="col-md-4 col-xs-offset-1">
-		<h3>Appetizers</h3>
-		<ul>
-				<li><a href="recipes/appetizers/hm_tortillaChips.html">Home made Tortilla chips</a> </li>
-				<li><a href="recipes/appetizers/pav_bhaji.html">Pav Bhaji</a> </li>
-				<li><a href="recipes/appetizers/mushroom_munchurian.html">Mushroom Manchurian</a></li>
-				<li><a href="recipes/appetizers/baked_samosa.html">Baked Veggie Samosa</a></li>
-				<li><a href="recipes/appetizers/stuffed_mushroom.html">Stuffed Mushroom</a></li>
-		</ul>
-		</div>
-		<div class="col-md-7">	
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  				<ol class="carousel-indicators">
-				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				    <li data-target="#myCarousel" data-slide-to="1"></li>
-				    <li data-target="#myCarousel" data-slide-to="2"></li>
-				    <li data-target="#myCarousel" data-slide-to="3"></li>
-				    <li data-targer="#myCarousel" data-slide-to="4"></li>
-				</ol>
-				<div class="carousel-inner" role="listbox">
-			    <div class="item active">
-			      	<a href="recipes/appetizers/hm_tortillaChips.html"><img src="images/hm_tortillaChips.jpg" alt="tortilla chips image"></a>
-			      	
-			    </div>
-
-			    <div class="item">
-			     	<a href="recipes/appetizers/pav_bhaji.html"><img src="images/pav_bhaji1.jpg" alt="pav_bhaji image"></a>
-			    </div>
-
-			    <div class="item">
-			     	<a href="recipes/appetizers/mushroom_munchurian.html"><img src="images/mushroom_man1.jpg" alt="mushroom manchurian image"></a>
-			    </div>
-
-			    <div class="item">
-			      	<a href="recipes/appetizers/baked_samosa.html"><img src="images/bakedsamosa1.jpg" alt="baked samosa image"></a>
-			    </div>
-			    <div class="item">
-			    	<a href="recipes/appetizers/stuffed_mushroom.html"><img src="images/stuffed_mushroom.jpg" alt="stuffed mushroom image"></a>
-			    </div>
-			  	</div>
-			  	
-			  	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-			  	</a>
-			  	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-			  	</a>
-			</div>
+	<header class="navbar navbar-inverse navbar-static-top">
+	<div class="container">
+		<div class="navbar-inner">
+		<div class="navbar-header">
+			<a href="recipe_index.html.html" class="navbar-brand">Healthy Eatery</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>	
-	</section>
+		</div>	
+			<ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+				<li><a href="main.html">Home</a></li>
+				<li><a href="javascript:window.print()">Print Menu</a></li>
+				<li id="btn-1"><a href="#btn-1">Location</a>	
+				<ul class="location">
+					<li>22nd Street</li>
+					<li>Washington ave</li>
+					<li>Minneapolis-55128</li>
+				</ul>
+				</li>		
+			</ul>
+	</div>			
+	</header>
+
+<div class="container">
+	
+	<h1>Welcome to the Healthy Eatery</h1>
+	<div class="row">
+	<div class="col-md-11 col-md-offset-1">
+		<p><strong>C</strong>ulinary art builds bridge between taste buds and heart. Stomach is a receptacle, heart is a reservoir of love and affection. Culinary art charms everyone. And if science becomes an ingredient of this art, well, it is more than delicious, yeah healthy.In Healthy Eatery, we serve freshly made home cooked meals that are delicious and healthy! Once you have tasted our food, you will never forget us.</p>
+	</div>
 	</div>
 	
+	<h2>Menu</h2>
+	<div id="print">
+	<ul id="ri">
+		<li><button id="app">Appetizers</button></li>
+			<ul class="lists" id="list1">
+				<li>Home made Tortilla chips<span> $3.99</span> </li>
+				<li>Pav Bhaji<span> $9.99</span></li>
+				<li>Mushroom Manchurian<span> $9.99</span></li>
+				<li>Baked Veggie Samosa<span> $6.99</span></li>
+				<li>Stuffed Mushroom<span> $8.99</span></li>
+			</ul>
+		<li><button id="ent">Entrees</button></li>
+			<ul class="lists" id="list2">
+				<li>Veggie Noodles<span> $12.99</span></li>
+				<li>Panner Roti Rolls<span> $9.99</span></li>
+				<li>Lemon Rice<span> $6.99</span></li>
+				<li>Tawa Pulav<span> $8.99</span></li>
+				<li>Sambhar Rice<span> $12.99</span></li>
+			</ul>
+		<li><button id="des">Desserts</button></li>
+			<ul class="lists" id="list3">
+				<li>Vanilla Paound Cake<span> $4.99</span></li>
+				<li>Eggless Cake<span> $6.99</span></li>
+				<li>Pearl Sago Payasam<span> $5.99</span></li>
+				<li>Sponge Cake<span> $4.99</span></li>
+				<li>Kaju Katli<span> $3.99</span></li>
+			</ul>
+	</ul>	
+	</div>
+	
+	<div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="" alt="Image 1"></li>
+                        <li><img src="../_shared/img/img2.jpg" alt="Image 2"></li>
+                        <li><img src="../_shared/img/img3.jpg" alt="Image 3"></li>
+                        <li><img src="../_shared/img/img4.jpg" alt="Image 4"></li>
+                        <li><img src="../_shared/img/img5.jpg" alt="Image 5"></li>
+                        <li><img src="../_shared/img/img6.jpg" alt="Image 6"></li>
+                    </ul>
+            	</div>
 
-	<section id ="entrees">
-		<h3>Entrees</h3>
-		<ul>
-			<li><a href="recipes/entrees/veggie_noodles.html">Veggie Noodles</a></li>
-			<li><a href="recipes/entrees/paneer_roll.html">Panner Roti Rolls</a></li>
-			<li><a href="recipes/entrees/lemon_rice.html">Lemon Rice</a></li>
-			<li><a href="recipes/entrees/tawa_pulav.html">Tawa Pulav</a></li>
-			<li><a href="recipes/entrees/sambhar_rice.html">Sambhar Rice</a></li>
-		</ul>
-	</section>
-	<section id="desserts">
-		<h3>Desserts</h3>
-		<ul>
-			<li><a href="recipes/desserts/vanilla_pc.html">Vanilla Paound Cake</a></li>
-			<li><a href="recipes/desserts/egglesscake.html">Eggless Cake</a></li>
-			<li><a href="recipes/desserts/pearlsago_payasam.html">Pearl Sago Payasam</a></li>
-			<li><a href="recipes/desserts/spongecake.html">Sponge Cake</a></li>
-			<li><a href="recipes/desserts/kajukatli.html">Kaju Katli</a></li>
-		</ul>
-		
-	</section>
+            	<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+                <p class="jcarousel-pagination"></p>
+    </div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset 3">
 	<footer>
-
 		<h4>Comments:</h4>
 	    	<textarea name="Comment" rows="10" cols="75" spellcheck="true" placeholder="Tell me what you think of this site."></textarea>
-	    	<input type="submit" name="submit" id="submit_b">
+	    	<button id="sub">Submit</button>
+	    	<h5></h5>
 	</footer>
+</div>	
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</div>
+</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="application.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
 
