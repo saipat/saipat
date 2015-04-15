@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$(".location").slideToggle("slow");
 	});
 
-	$("#sub").on("click",function(){
+	$(".foot button").on("click",function(){
 		$(this).remove();
 		$("h5").text("Thanks for your comment. Your comment is submitted");
 	});

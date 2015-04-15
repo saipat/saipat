@@ -80,40 +80,45 @@ body{
 	border-bottom: 1px solid #bdbdbd;
 }
 
-@media screen and (max-width: 360px){
+@media only screen and (min-width: 320px) and (max-width: 620px){
 	.navbar-inverse .navbar-brand{
 		font-size: 26px;
-		text-align: center;
-		line-height: 36px;
 		}	
 	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
   		color: black;
 		}
 	#outer-box{
 		height: 1300px;
+	}
+	.inner-box{
+		border: none;
+
 	}	
-	#bio{
-			font-size: 25px;
-			margin-bottom: 15px;
-			border: none;
+	#bio h2, #skills h2, #education h2{
+			font-size: 22px;
+			padding-bottom: 5px;
+			margin-bottom: 1px;
 		}
 	#bio p{
-			padding: 33px;
+			margin-top: 30px;
+			padding-top: 5px;
 			font-size: 18px;
 		}	
 	#skills{
-			width: auto;
-			margin: auto;
-			border : none;
-		}	
-	#education{
-		margin: auto;
-		border: none;
-		}
+		margin-top: 10px;
+	}	
 	#skills ul li, #education ul li{
 	font-size: 18px;
 	padding: 3px;
+	}
+	#sub-skill1 h3, #sub-skill2 h3, #editor h3{
+	font-size: 17px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #bdbdbd;
+	text-shasow: 2px 2px 2px #ccc;
 }	
+
 }
 
 

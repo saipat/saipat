@@ -42,38 +42,35 @@ h1, h2, h3, p{
 }
 h1{
 	font-size: 35px;
-	margin-left: 30px;
+	margin: 50px 0 0 35px;
 	text-shadow: 2px 2px 2px #ccc;
 	text-align: center;
 }
 h2{
-	font-size: 25px;
+	font-size: 27px;
 	text-shadow: 3px 3px 3px #ccc;
-	margin-top: 25px;
+	margin-top: 45px;
 	padding: 19px;
 	padding-left: 0;
 	text-align: center;
 	width: 100%;
-	border-bottom: 4px solid #616666;
+	border-bottom: 2px solid #616666;
 }
 p{
 	font-size: 18px;
-	margin-top: 20px;
+	margin-top: 55px;
 }
 .lists{
-	margin: 10px 0 0 75px;
+	margin: 55px 0 50px 75px;
 }
 .lists li{
 	list-style-type: none;
 	font-size: 16px;
 	text-decoration: none;
 	display: none;
-	
+	vertical-align: middle;
 }
-.lists li a {
-	color:black;
-}
-span{
+.lists span{
 	display: none;
 	color: #616666;
 	padding: 20px;
@@ -83,10 +80,13 @@ span{
 #ri{
 	padding-top: 10px;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 70px;
+	vertical-align: middle;
 }
 ul li{
 	list-style-type: none;
+	text-align: center;
+	
 }
 ul li button{
     font-family: 'Lora', serif;
@@ -95,31 +95,13 @@ ul li button{
 	font-weight: normal;
 	display: block;
 	width: 54%;
+	border: none;
 	text-align: center;
 	color: black;
 	margin:0 auto;
+	padding-right: 46px;
 	height: 43px;
 	background-color: white;
-}
-img{
-	max-width: 100%;
-}
-#images{
-	margin-top: 100px;
-}
-.carousel-inner .item a img
-   {
-      width: 50%;
-      height: 400px;
-      margin: auto;
-} 
-.carousel-caption h3{
-	font-size: 18px;
-	text-shadow: 1px 1px 1px black;
-	color: #ccc;
-}
-.controls{
-	margin: 10px 50px 0 50px;
 }
 h4{
 	font-family: 'Lora', serif;
@@ -127,6 +109,7 @@ h4{
 	font-weight: normal;
 	text-decoration: underline;
 	color: black;
+	padding-bottom: 20px;
 }
 h5{
 	font-family: 'Lora', serif;
@@ -141,8 +124,8 @@ textarea{
 	background-position: bottom right;
 	background-repeat: no-repeat;
 }
-button{
-	margin: 10px;
+.foot #sub{
+	margin: 20px;
 	width: 100px;
 	height: 25px;
 	color: #f3ffff;
@@ -150,15 +133,15 @@ button{
 	border: none;
 	font-family: 'Lora', serif;
 }
-#sub:hover{
+.foot #sub:hover{
 	color:white;
 	background-color: black;
 }
 
-@media screen and (max-width: 320px and min-width: 600px){
+@media only screen and (min-width: 320px) and (max-width: 620px){
 	
 	.navbar-inverse .navbar-brand{
-		font-size: 25px;
+		font-size: 26px;
 
 	}
 	.location{
@@ -176,7 +159,7 @@ button{
 		margin-bottom: 10px;
 	}
 	p{
-		font-size: 17px;
+		font-size: 16px;
 		padding: 18px;
 	}
 	h2{
@@ -190,13 +173,18 @@ button{
 	ul li button{
 		margin: 0 0 0 55px;
 		display: block;
-		width: 60%;
+		width: 55%;
+		vertical-align: middle;
+		line-height: 30px;
 		text-align: center;
+		padding-left: 28px;
 		font-size: 20px;
+		background-color: #616666;
+		color: #f3ffff;
+		text-shadow: none;
 	}
-	.carousel-inner .item a img{
-		width: auto;
-		max-height: 200px;
+	.lists{
+		margin-bottom: 30px;
 	}
 
 }
