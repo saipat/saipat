@@ -9,7 +9,8 @@ head,body,h1,h2,h3,h4,p,ul,li,a,nav,textarea
 }
 body{
 	background-color: #f8f8f8;
-	background-image: url("p1.paint");	
+	background-image: url("p1.paint");
+	font-family: 'Roboto', sans-serif;	
 }
 .navbar-inverse{
 	background-color: #3ea99f;
@@ -19,13 +20,13 @@ body{
 	color: black;
 	font-size: 30px;
 	text-shadow: 2px 2px 2px #ccc ;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif; */
 	line-height: 33px;
 }
 .navbar-inverse .navbar-nav li a{
 	color: black;
 	font-size: 15px;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif; */
 }
 #outer-box{
 	border: 1px inset #bdbdbd;
@@ -34,7 +35,7 @@ body{
 }
 .inner-box{
 	border: 1px solid #bdbdbd;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif; */
 	text-align: center;
 	margin: 2em auto 0;
 	max-width: 40em;
