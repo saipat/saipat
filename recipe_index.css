@@ -8,6 +8,7 @@ head,body,h2,h3,p,ul,li,a,textarea,i,
 }
 body{
 	background-color: #f3ffff;
+	font-family: 'Roboto', sans-serif;
 }
 .navbar-inverse{
 	background-color: #404c4c;
@@ -17,12 +18,12 @@ body{
 	color: white;
 	font-size: 32px;
 	text-shadow: 2px 2px 2px black ;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 }
 .navbar-inverse .navbar-nav li a{
 	color: white;
 	font-size: 15px;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 }
 .navbar-inverse .navbar-nav li a:hover{
 	color: #f3ffff;
@@ -33,7 +34,7 @@ body{
 	list-style-type: none;
 	text-decoration: none;
 	font-size: 15px;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 }
 h1, h2, h3, p{
 	font-family: 'Lora', serif;
@@ -89,7 +90,7 @@ ul li{
 	
 }
 ul li button{
-    font-family: 'Lora', serif;
+    /*font-family: 'Lora', serif;*/
 	font-size: 23px;
 	text-shadow: 2px 2px 2px #ccc;
 	font-weight: normal;
@@ -104,7 +105,7 @@ ul li button{
 	background-color: white;
 }
 h4{
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 	font-size: 18px;
 	font-weight: normal;
 	text-decoration: underline;
@@ -112,7 +113,7 @@ h4{
 	padding-bottom: 20px;
 }
 h5{
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 	color: black;
 }
 textarea{
@@ -120,7 +121,7 @@ textarea{
 	height: 120px;
 	border: 3px solid #6f6666;
 	padding: 5px;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 	background-position: bottom right;
 	background-repeat: no-repeat;
 }
@@ -131,7 +132,7 @@ textarea{
 	color: #f3ffff;
 	background-color: #6f6666;
 	border: none;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 }
 .foot #sub:hover{
 	color:white;
