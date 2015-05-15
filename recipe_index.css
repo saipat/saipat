@@ -63,13 +63,16 @@ p{
 }
 .lists{
 	margin: 55px 0 50px 75px;
+	position: relative;
 }
 .lists li{
 	list-style-type: none;
 	font-size: 16px;
 	text-decoration: none;
 	display: none;
+	
 	vertical-align: middle;
+
 }
 .lists span{
 	display: none;
