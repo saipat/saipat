@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*.gridContainer {*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*width: 90.25%;*/
+	/*padding-left: 2.375%;*/
+	/*padding-right: 2.375%;*/
+	/*clear: none;*/
+	/*float: none;*/
+/*}*/
+/*p{*/
+	/*font-family: 'Droid Serif', serif;*/
+	/*font-size: 16px;*/
+	/*font-weight: 400;*/
+	/*text-align: center;*/
+	/*text-shadow: 0 0 3px #B5ABAB;*/
+	/*padding-top: 50px;*/
+	/*margin-left: 10px;*/
+/*}*/
+/*.navbar-inverse {*/
+	/*background-color: #3ea99f;*/
+	/*box-shadow: 4px 4px 5px #ccc;*/
+/*}*/
+
+/*.navbar-inverse .navbar-brand {*/
+	/*color: black;*/
+	/*font-size: 30px;*/
+	/*text-shadow: 2px 2px 2px #ccc;*/
+	/*!*font-family: 'Lora', serif; *!*/
+	/*line-height: 33px;*/
+/*}*/
+
+/*.navbar-inverse .navbar-nav li a {*/
+	/*color: black;*/
+	/*font-size: 15px;*/
+	/*!*font-family: 'Lora', serif; *!*/
+/*}*/
+/*.nav{*/
+	/*margin-bottom: 20px !important;*/
+	/*margin-top: 40px;*/
+/*}*/
+/*.nav-tabs{*/
+	/*border-bottom: none !important;*/
+/*}*/
+/*.nav-tabs li{*/
+	/*float : none !important;*/
+	/*text-align: center;*/
+/*}*/
+/*.nav li a{*/
+	/*font-size: 16px;*/
+	/*color: #6e421d;*/
+/*}*/
+#outer-box{
+	height: 2400px;
+}
+.Image2{
+	margin-left: -55px;
+  }
+#samples{
+	margin-top: 80px !important;
+}
+#samples ul li{
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+#samples ul li h4{
+	font-size: 16px;
+	color: #666600;
+	text-shadow: 0 0 1px gray;
+	padding-bottom: 40px;
+	text-align: center;
+	font-weight: 500;
+}
+#samples ul li img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#row2Img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+/*p{*/
+	/*font-size: 20px;*/
+	/*padding-top: 50px;*/
+	/*padding-bottom: 10px;*/
+/*}*/
+/*.nav{*/
+    /*margin-top: 40px;*/
+    /*padding:0;*/
+    /*text-align:center;*/
+/*}*/
+/*.nav .listItems{*/
+    /*display:inline;*/
+/*}*/
+/*.nav .listItems a{*/
+    /*display:inline-block;*/
+    /*padding-right: 50px!important;*/
+	/*font-size: 20px;*/
+/*}*/
+
+#samples ul li{
+	padding-bottom: 25px;
+}
+#samples ul li h4{
+	font-size: 20px;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+	.gridContainer {
+		width: 88.5%;
+		max-width: 1232px;
+		padding-left: 0.75%;
+		padding-right: 0.75%;
+		margin: auto;
+		clear: none;
+		float: none;
+		margin-left: auto;
+	}
+
+	/*.nav{*/
+	/*margin-top: 40px;*/
+	/*padding:0;*/
+	/*text-align:center;*/
+	/*}*/
+	/*.nav .listItems{*/
+	/*display:inline;*/
+	/*}*/
+	/*.nav .listItems a{*/
+	/*display:inline-block;*/
+	/*padding-right: 90px!important;*/
+	/*font-size: 22px;*/
+	/*}*/
+	#samples ul li h4 {
+		font-size: 22px;
+	}
+}
