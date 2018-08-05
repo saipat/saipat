@@ -55,10 +55,15 @@
 /*}*/
 #outer-box{
 	height: 2400px;
+	border: 0;
+	box-shadow: none;
 }
 .Image2{
-	margin-left: -55px;
+	padding: 0;
   }
+.lastImage{
+	margin-left: 40px;
+}
 #samples{
 	margin-top: 80px !important;
 }
@@ -73,6 +78,7 @@
 	padding-bottom: 40px;
 	text-align: center;
 	font-weight: 500;
+	padding-left: 50px;
 }
 #samples ul li img{
 	display: block;
