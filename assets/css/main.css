@@ -1838,6 +1838,7 @@ input, select, textarea {
 
 		.box :last-child {
 			margin-bottom: 0;
+			margin-left: -2px;
 		}
 
 		.box.style1 {
@@ -1871,7 +1872,11 @@ input, select, textarea {
 			}
 
 				.box.style1.right .image img {
-					right: 0;
+					right: -29%;
+				}
+
+				.box.style1.right .image .eton{
+					right: -55%;
 				}
 
 			.box.style1.right .inner {
@@ -1933,13 +1938,13 @@ input, select, textarea {
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						border-bottom: solid 1px #fff;
+						/* border-bottom: solid 1px #fff; */
 					}
 
 				.box.style2 .inner .image {
 					position: relative;
 					z-index: 1;
-					padding: 20px;
+					padding: 24px;
 				}
 
 		.box.style3 {
@@ -2097,7 +2102,8 @@ input, select, textarea {
 			}
 
 		#banner p {
-			margin: 0;
+			    margin: 0 auto;
+			    width: 61%;
 		}
 
 		#banner footer {
